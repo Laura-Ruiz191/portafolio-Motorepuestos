@@ -1,0 +1,169 @@
+/* Reseteo es estilos */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+}
+
+body {
+  background-color: white;
+  color: black;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 30px;
+}
+
+.top-bar {
+  width: 100%;
+  height: 50px;
+  background-color: gray;
+  position: fixed;
+  top: 0;
+  left: 0;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  padding-right: 0 20px;
+}
+
+.welcome {
+  margin: 0;
+}
+
+.social-icons {
+  margin-left: 10px;
+}
+
+.social-icons img {
+  width: 34px;
+  height: 34px;
+  transition: transform 0.3s;
+}
+
+.social-icons:hover {
+  transform: scale(1.1);
+}
+
+header {
+  text-align: center;
+  margin-bottom: 60px;
+  margin-top: 60px;
+}
+
+.local-data {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  gap: 30px;
+  margin-bottom: 20px;
+}
+
+.info {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 10px;
+}
+
+.profile-pic {
+  width: 200px;
+  height: 200px;
+  border-top: 50%;
+  box-shadow: 0px 4px 10px red;
+  transition: transform 0.3s;
+  margin-right: 10px;
+}
+
+.galeria {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 10px;
+  padding: 20px;
+  background-color: #f1f1f1;
+}
+
+.imgp {
+  width: 20%;
+  height: auto;
+  object-fit: cover;
+  border-radius: 8px;
+  transition: transform 0.3s;
+}
+
+.imgp:hover {
+  transform: scale(1.1);
+}
+
+.profile-pic:hover {
+  transform: scale(1.1);
+}
+
+h1 {
+  color: black;
+}
+
+.description {
+  margin-top: 30px;
+  text-align: justify;
+}
+
+.products {
+  margin-bottom: 60px;
+  width: 100%;
+}
+
+h2 {
+  color: black;
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+.list {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  width: 100%;
+}
+
+.contact-footer {
+  background-color: gray;
+  color: black;
+  padding: 20px;
+  text-align: center;
+  margin-top: 40px;
+  width: 100%;
+  position: relative;
+}
+
+.contact-footer .footer-content {
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+.contact-footer h2 {
+  margin-bottom: 20px;
+}
+
+.contact-footer p {
+  margin: 5px 0;
+}
+
+.whatsapp-icon {
+  position: absolute;
+  bottom: 10px;
+  right: 10px;
+}
+
+.whatsapp-icon img {
+  width: 80px;
+  height: 80px;
+  transition: transform 0.3s;
+}
+
+.whatsapp-icon:hover {
+  transform: scale(1.1);
+}
